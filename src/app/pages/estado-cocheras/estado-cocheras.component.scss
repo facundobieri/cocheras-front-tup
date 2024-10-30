@@ -1,0 +1,14 @@
+@use "./../../../../public/styles/tablas.scss";
+@use "./../../../../public/styles/colors.scss";
+
+
+
+#agregar-cochera{
+    margin: auto;
+}
+
+button{
+    cursor: pointer !important;
+    background-color: colors.$color-primario;
+    color: colors.$color-secundario;
+}
