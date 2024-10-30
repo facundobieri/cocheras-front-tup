@@ -1,8 +1,11 @@
 <main>
-    <div id="izquierda">
-        <h1>ADMINISTRACIÓN COCHERA</h1>
+    <div id="arriba">
+        <div id="bloquearriba">
+            <h1>ADMINISTRACIÓN COCHERA</h1>
+            <div class="barravacia"></div>
+        </div>
     </div>
-        <div id="derecha">
+        <div id="abajo">
         <form #registerForm="ngForm" (ngSubmit)="register(registerForm)">
             <input type="text" id="username" placeholder="Usuario" name="username" ngModel required>
             <input type="text" id="nombre" placeholder="Nombre" name="nombre" ngModel required>

@@ -37,11 +37,13 @@ main{
 }
 #bloquearriba{
     background-color: colors.$color-secundario;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 10px 100%;
+    padding: 10px 0;
+    width: 100%;
     color: colors.$color-primario;
+    z-index: 2;
     h1{
         font-size: 50px;
     }

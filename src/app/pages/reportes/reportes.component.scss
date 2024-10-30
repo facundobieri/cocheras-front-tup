@@ -12,10 +12,10 @@ table{
     }
 }
 main{
+    margin: 100px;
     padding: 40px;
     background-color: colors.$color-primario;
     border: 20px solid colors.$color-secundario;
-    margin: 20px;
     display: flex;
     
 }
